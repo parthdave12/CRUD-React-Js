@@ -1,0 +1,32 @@
+/*Table CSS Start*/
+
+.tablePosition {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.tableContainer {
+  overflow: auto;
+  max-height: 300px;
+}
+
+.tablePosition th,
+.tablePosition td {
+  padding: 8px;
+}
+
+.tablePosition tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.btnPosition {
+  margin-left: 10px;
+}
+@media only screen and (max-width: 640px) {
+  .btnPosition {
+    margin: 0;
+  }
+}
+
+/*Table CSS End*/
